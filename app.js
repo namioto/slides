@@ -68,7 +68,7 @@ $(document).ready(function(){
         });
 
         $(".slides").append(html);
-
+        console.debug(html);
         initReveal();
 
     }).error(function(){
