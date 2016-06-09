@@ -60,6 +60,8 @@ $(document).ready(function(){
 
         // dom
         $(slides).each(function(index, section){
+            console.info(index);
+            console.info(section);
             section=$.map(section,function(value){
                 return '<section data-markdown><script type="text/template">'+value+'</script></section>';
             });
