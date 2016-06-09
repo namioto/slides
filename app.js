@@ -62,7 +62,7 @@ $(document).ready(function(){
         $(slides).each(function(index, section){
             console.info(index);
             console.info(section);
-            section=$.map(section,function(value){
+            section=_.map(section,function(value){
                 return '<section data-markdown><script type="text/template">'+value+'</script></section>';
             });
 
