@@ -67,7 +67,8 @@ $(document).ready(function(){
                 return '<section data-markdown><script type="text/template">'+value+'</script></section>';
             });
 
-            html += '<section>'+section.join('')+'</section>';
+            //html += '<section>'+section.join('')+'</section>';
+            html += section.join('');
         });
 
         $(".slides").append(html);
